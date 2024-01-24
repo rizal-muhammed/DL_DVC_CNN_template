@@ -7,7 +7,7 @@ from box.exceptions import BoxValueError
 from ensure import ensure_annotations
 from pathlib import Path
 
-from BreastCancerDetection.logging import logger
+from deepClassifier import logger
 
 
 def none_constructor(loader, node):
